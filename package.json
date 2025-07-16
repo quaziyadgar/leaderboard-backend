@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-      "start": "node server.mjs",
-      "dev": "nodemon server.mjs"
+    "start": "node server.mjs",
+    "dev": "nodemon server.mjs"
   },
   "dependencies": {
-      "express": "^4.17.1",
-      "mongoose": "^8.0.6",
-      "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.0.6"
   },
   "devDependencies": {
-      "nodemon": "^2.0.14"
+    "nodemon": "^2.0.14"
   }
 }
