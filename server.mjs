@@ -2,6 +2,7 @@ import express from 'express';
 import connectDB from './config/db.mjs';
 import leaderboardRoutes from './routes/leaderboard.mjs';
 import cors from 'cors';
+import 'dotenv/config';
 
 const app = express();
 
