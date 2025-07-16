@@ -1,0 +1,17 @@
+{
+  "name": "leaderboard-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+      "start": "node server.mjs",
+      "dev": "nodemon server.mjs"
+  },
+  "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^8.0.6",
+      "cors": "^2.8.5"
+  },
+  "devDependencies": {
+      "nodemon": "^2.0.14"
+  }
+}
